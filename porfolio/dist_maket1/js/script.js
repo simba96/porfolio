@@ -69,7 +69,7 @@ ssm.addState({
 });
 
 
-let  $gallery = $('.portfolio__gallery').isotope({
+let  $gallery = $('.gallery').isotope({
     itemSelector: '.all',
     layoutMode: 'masonry',
 });
