@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="176px" height="76px" viewBox="0 0 176 76">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 20px;
+  font-family: "Roboto-Regular";
+  fill: rgb(255,255,255);
+}
+.style1 {
+  font-size: 27px;
+  font-family: "Roboto-Regular";
+  fill: rgb(255,255,255);
+}
+.style2 {
+  font-size: 48px;
+  font-family: "FiraSans-Bold";
+  fill: rgb(255,234,0);
+  text-transform: uppercase;
+}
+]]></style>
+<filter filterUnits="objectBoundingBox" x="-2.98" y="-7.35" width="105.95" height="114.71" id="filter0">
+<feGaussianBlur in="SourceAlpha" stdDeviation="2.50" result="dsBlurOut1"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.45" result="dsFloodOut1"/>
+<feComposite in="dsFloodOut1" in2="dsBlurOut1" operator="in" result="dsShadow1"/>
+<feOffset in="dsShadow1" dx="0.50" dy="0.87" result="dsOffset1"/>
+<feComposite in="dsOffset1" in2="SourceAlpha" operator="out" result="dropShadow1"/>
+<feBlend in="dropShadow1" in2="SourceGraphic" mode="normal" result="sourceGraphic"/>
+</filter>
+<text transform="translate(3.00,-1.85)" filter="url(#filter0)"><tspan y="19.17" x="0.00 11.72 23.50 31.26 42.66 53.10 64.82 76.60 87.40 97.16 107.54 119.42" fill="rgb(255,255,255)" class="style0">Богдановский</tspan><tspan x="131.30 141.34" fill="rgb(255,255,255)" class="style1"> </tspan><tspan y="71.17" x="0.00 26.26 55.63 81.17 107.18 130.80" fill="rgb(255,233,0)" class="style2">карьер</tspan></text></svg>
